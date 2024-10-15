@@ -3,7 +3,7 @@
 . .\ProcessManagement.ps1
 
 function Display-Menu {
-    Clear-Host
+
     Write-Host "Menu Options:"
     Write-Host "1. Display last 10 apache logs"
     Write-Host "2. Display last 10 failed logins for all users"
